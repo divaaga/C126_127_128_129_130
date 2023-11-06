@@ -29,7 +29,7 @@ function modelLoaded() {
     console.log("posenet is now initialized...");
 }
 
-function gotPoses() {
+function gotPoses(results) {
     if (results.length > 0) {
         console.log(results);
 
