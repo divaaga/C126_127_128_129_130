@@ -81,3 +81,7 @@ function gotPoses(results) {
         console.log("right wrist X = " + rightWristX + " right wrist Y = " + rightWristY);
     }
 }
+
+function song_name() {
+    song.play();
+}
